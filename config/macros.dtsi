@@ -1,3 +1,15 @@
+macro_macro_winswitch: macro_macro_winswitch{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_winswitch";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp GRAVE>;
+};
+macro_macro_macswitch: macro_macro_macswitch{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_macswitch";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
